@@ -1,4 +1,3 @@
-// Algoritmo 40 do livro introdução á Progamação
 #include <stdio.h>
 #include <locale.h>
 
@@ -7,15 +6,15 @@ int main ()
     setlocale(LC_ALL, "Portuguese");
 
     int Num1, Num2, Divisao, Resto;
-// O Primeiro número e o Dividendo
-    printf("\nEntre com um número inteiro: ");
+// O Primeiro nÃºmero e o Dividendo
+    printf("\nEntre com um nÃºmero inteiro: ");
     scanf("%d",&Num1);
-// O segundo número e o Divisor
-    printf("\nEntre com o segunndo número inteiro: ");
+// O segundo nÃºmero e o Divisor
+    printf("\nEntre com o segunndo nÃºmero inteiro: ");
     scanf("%d",&Num2);
 // Divisao e o Quociente
     Divisao = Num1 / Num2;
-// Resto da Divisão
+// Resto da DivisÃ£o
     Resto = Num1 % Num2;
 
     printf("\nDividendo: %d", Num1);
