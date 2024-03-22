@@ -21,12 +21,5 @@ int main ()
     printf("\nDivisor: %d", Num2);
     printf("\nQuociente: %d", Divisao);
     printf("\nResto: %d", Resto);
-
-
 }
 
-// As saidas devem ser:
-// dividendo
-// divisor
-// quociente
-// resto
