@@ -5,6 +5,6 @@ int main ()
 {
     int Numero;
     setlocale(LC_ALL,"Portuguese");
-    printf("\nDigite um número inteiro: \n");
+    printf("\nDigite um nÃºmero inteiro: \n");
     scanf("%d",&Numero);
 }
