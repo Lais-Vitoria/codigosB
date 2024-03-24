@@ -7,13 +7,13 @@ int main ()
 
     float Num1, Num2, Media;
 
-    printf("\nDigite um número com virgula: ");
+    printf("\nDigite um nÃºmero com virgula: ");
     scanf("%f",&Num1);
 
-    printf("\nDigite outro número com virgula: ");
+    printf("\nDigite outro nÃºmero com virgula: ");
     scanf("%f",&Num2);
 
     Media = (Num1 + Num2)/2;
 
-    printf("\nMédia: %0.2f", Media); 
+    printf("\nMÃ©dia: %0.2f", Media); 
 }
