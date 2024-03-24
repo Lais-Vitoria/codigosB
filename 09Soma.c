@@ -6,9 +6,9 @@ int main ()
 
     int Num1, Num2, Soma;
 
-    printf("\nEscreva um número inteiro: ");
+    printf("\nEscreva um nÃºmero inteiro: ");
     scanf("%d", &Num1);
-    printf("\nEscreva outro número inteiro: ");
+    printf("\nEscreva outro nÃºmero inteiro: ");
     scanf("%d", &Num2);
      
     Soma = Num1 + Num2;
