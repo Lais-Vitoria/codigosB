@@ -8,11 +8,11 @@ int main() {
 
     float AnguloEmGraus, Radiano, Pi = 3.14159;
     
-    // Solicita ao usuário para digitar um ângulo em graus
-    printf("\nDigite o ângulo em graus: ");
+    // Solicita ao usuÃ¡rio para digitar um Ã¢ngulo em graus
+    printf("\nDigite o Ã¢ngulo em graus: ");
     scanf("%f", &AnguloEmGraus);
     
-    //Calcula o ângulo em graus para radiano
+    //Calcula o Ã¢ngulo em graus para radiano
     Radiano = (AnguloEmGraus * Pi) / 180;
     
     printf("\nRadiano: %f", Radiano);
