@@ -1,4 +1,3 @@
-//Algoritimo 29 do livro introdução á Progamação
 #include <stdio.h>
 
 int main ()

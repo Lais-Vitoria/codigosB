@@ -1,4 +1,3 @@
-// Agoritmo 41 do livro introdução a progamação
 #include <stdio.h>
 #include <locale.h>
 

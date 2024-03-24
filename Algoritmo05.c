@@ -1,4 +1,3 @@
-// Algoritmo 32 do livro introdução á progamação
 #include <stdio.h>
 #include <locale.h>
 

@@ -1,4 +1,3 @@
-// Algoritmo 35 do livro introdução á programação
 #include <stdio.h>
 #include <locale.h>
 

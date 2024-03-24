@@ -1,4 +1,3 @@
-// Algoritmo 37 do livro introdução á Progamação
 #include <stdio.h>
 #include <locale.h>
 

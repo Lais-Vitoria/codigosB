@@ -1,4 +1,3 @@
-// Algoritmo 38 do livro introdução a Progamação
 #include <stdio.h>
 #include <locale.h>
 

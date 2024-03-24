@@ -1,4 +1,3 @@
-// Algoritmo 36 do livro introdução a progamação
 #include <stdio.h>
 #include <locale.h>
 int main ()
