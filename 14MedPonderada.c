@@ -7,19 +7,19 @@ int main ()
 
     float Num1 , Num2 , Num3, Num4, MediaPonderada;
 
-    printf("\nDigite um número: ");
+    printf("\nDigite um nÃºmero: ");
     scanf("%f",&Num1);
 
-    printf("\nDigite o segundo número: ");
+    printf("\nDigite o segundo nÃºmero: ");
     scanf("%f",&Num2);
 
-    printf("\nDigite o terceiro número: ");
+    printf("\nDigite o terceiro nÃºmero: ");
     scanf("%f",&Num3);
 
-    printf("\nDigite o Quarto número: ");
+    printf("\nDigite o Quarto nÃºmero: ");
     scanf("%f",&Num4);
 
     MediaPonderada =(Num1*1 + Num2*2 + Num3*3 + Num4*4) / (1 + 2 + 3 + 4);
 
-    printf("\nA Média ponderada e: %.2f", MediaPonderada);
+    printf("\nA MÃ©dia ponderada e: %.2f", MediaPonderada);
 }
