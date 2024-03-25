@@ -12,15 +12,15 @@ int main ()
     printf("\nDigite Seu Nome: ");
     scanf("%49[^\n]", Nome);
 
-    printf("\nQual é o seu endereço: \n");
+    printf("\nQual Ã© o seu endereÃ§o: \n");
     scanf(" %99[^\n]", Endereco);
 
     printf("\nDigite seu telefone: \n");
     scanf(" %11[^\n]", Telefone);
 
     printf("\nNome: %s", Nome);
-    printf("\nEndereço: %s", Endereco);
+    printf("\nEndereÃ§o: %s", Endereco);
     printf("\nTelefone: %s", Telefone);
- // o eespaço e para iguinorar o \n
+ // o eespaÃ§o e para iguinorar o \n
 
 }
