@@ -8,9 +8,9 @@ int main ()
 
     float Numero;
 
-    printf("\nDigite um número: ");
+    printf("\nDigite um nÃºmero: ");
     scanf("%f",&Numero);
 
-    printf("\nO Logatimo do número na base 10: %.2f", log(Numero) / log(10));
+    printf("\nO Logatimo do nÃºmero na base 10: %.2f", log(Numero) / log(10));
 
 }
