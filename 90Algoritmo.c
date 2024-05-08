@@ -7,11 +7,11 @@ int main ()
 
     int Numero;
 
-    printf("\nEntre com um número inteiro: ");
+    printf("\nEntre com um nÃºmero inteiro: ");
     scanf("%d", &Numero);
 
     if(Numero > 20)
     {
-        printf("\nO número: %d é maior que 20!", Numero);
+        printf("\nO nÃºmero: %d Ã© maior que 20!", Numero);
     }
 }
