@@ -7,17 +7,17 @@ int main ()
 
     int Numero, Resto;
 
-    printf("\nEntre com um número: ");
+    printf("\nEntre com um nÃºmero: ");
     scanf("%d", &Numero);
 
     Resto = Numero % 3;
 
     if(Resto == 0)
     {
-        printf("\nO Número %d e Multiplo de 3", Numero);
+        printf("\nO NÃºmero %d e Multiplo de 3", Numero);
     }
     else
     {
-        printf("\nO Número %d não e multiplo de 3", Numero);
+        printf("\nO NÃºmero %d nÃ£o e multiplo de 3", Numero);
     }
 }
