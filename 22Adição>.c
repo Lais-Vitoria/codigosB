@@ -7,10 +7,10 @@ int main ()
 
     int Numero1, Numero2, Soma;
 
-    printf("\nEntre com o primeiro número: ");
+    printf("\nEntre com o primeiro nÃºmero: ");
     scanf("%d", &Numero1);
 
-    printf("\nEntre com o segundo número: ");
+    printf("\nEntre com o segundo nÃºmero: ");
     scanf("%d", &Numero2);
 
     Soma = Numero1 + Numero2;
