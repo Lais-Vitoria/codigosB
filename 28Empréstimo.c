@@ -10,17 +10,17 @@ int main ()
     printf("\nEntre com o salario bruto: ");
     scanf("%f", &Salario);
 
-    printf("\nEntre com o valor da prestação: ");
+    printf("\nEntre com o valor da prestaÃ§Ã£o: ");
     scanf("%f", &ValorPrestacao);
 
     PocentoSalario = Salario * 0.30;
 
     if(ValorPrestacao <= PocentoSalario)
     {
-        printf("\nEmpréstimo concedido.");
+        printf("\nEmprÃ©stimo concedido.");
     }
     else
     {
-        printf("\nEmpréstimo não pode ser concedido.");
+        printf("\nEmprÃ©stimo nÃ£o pode ser concedido.");
     }
 }
