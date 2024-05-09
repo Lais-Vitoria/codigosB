@@ -7,18 +7,18 @@ int main ()
 
     int Numero, Resto;
 
-    printf("\nEntre com um número: ");
+    printf("\nEntre com um nÃºmero: ");
     scanf("%d", &Numero);
 
     Resto = Numero % 5;
 
     if(Resto == 0)
     {
-        printf("\nO Número %d e Multiplo de 5", Numero);
+        printf("\nO NÃºmero %d e Multiplo de 5", Numero);
     }
     else
     {
-        printf("\nO Número %d Não e Multiplo de 5", Numero);
+        printf("\nO NÃºmero %d NÃ£o e Multiplo de 5", Numero);
     }
 
 }
