@@ -7,17 +7,17 @@ int main ()
 
     int Numero1, Numero2, Adicao;
 
-    printf("\nDigite o primero Numero: ");
+    printf("\nDigite o primero NÃºmero: ");
     scanf("%d", &Numero1);
 
-    printf("\nDigite o segundo Numero: ");
+    printf("\nDigite o segundo NÃºmero: ");
     scanf("%d", &Numero2);
 
     Adicao = Numero1 + Numero2;
 
     if(Adicao > 10)
     {
-        printf("\nA Adição dos números e: %d", Adicao);
+        printf("\nA AdiÃ§Ã£o dos nÃºmeros e: %d", Adicao);
     }
 
 
