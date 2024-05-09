@@ -7,7 +7,7 @@ int main ()
 
     int Numero, Resto;
 
-    printf("\nEntre com um número: ");
+    printf("\nEntre com um nÃºmero: ");
     scanf("%d", &Numero);
 
     Resto = Numero%21;
@@ -18,6 +18,6 @@ int main ()
     }
     else
     {
-        printf("\n O Número %d Não e divisivel por 3 e 7.", Numero);
+        printf("\n O NÃºmero %d NÃ£o e divisivel por 3 e 7.", Numero);
     }
 }
