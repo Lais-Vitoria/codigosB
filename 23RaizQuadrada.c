@@ -7,15 +7,15 @@ int main ()
     setlocale(LC_ALL, "Portuguese");
     float Numero;
 
-    printf("\nEntre com um numero: ");
+    printf("\nEntre com um nÃºmero: ");
     scanf("%f", &Numero);
 
     if(Numero > 0)
     {
-        printf("\nRaiz Quadrada do número: %.2f e %.2f", Numero, sqrt(Numero));
+        printf("\nRaiz Quadrada do nÃºmero: %.2f e %.2f", Numero, sqrt(Numero));
     }
     else
     {
-        printf("\nO Quadrado do número %.2f e %.2f", Numero, Numero * Numero);
+        printf("\nO Quadrado do nÃºmero %.2f e %.2f", Numero, Numero * Numero);
     }
 }
