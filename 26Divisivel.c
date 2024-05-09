@@ -14,7 +14,7 @@ int main ()
 
     if(Resto == 0)
     {
-        printf("\n O Numero %d e Divisivel por 3 e 7.", Numero);
+        printf("\n O Número %d e Divisivel por 3 e 7.", Numero);
     }
     else
     {
