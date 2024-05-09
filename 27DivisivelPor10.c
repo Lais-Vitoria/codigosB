@@ -7,7 +7,7 @@ int main ()
 
     int Numero, Resto10, Resto5, Resto2;
 
-    printf("\nEntre com um número: ");
+    printf("\nEntre com um nÃºmero: ");
     scanf("%d", &Numero);
 
     Resto10 = Numero % 10;
@@ -16,23 +16,23 @@ int main ()
 
     if(Resto10 == 0)
     {
-        printf("\nNúmero %d e divisível por 10.", Numero);
+        printf("\nNÃºmero %d e divisÃ­vel por 10.", Numero);
     }
     else
     {
         if(Resto5 == 0)
         {
-            printf("Número %d e divisível por 5", Numero);
+            printf("NÃºmero %d e divisÃ­vel por 5", Numero);
         }
         else
         {
             if(Resto2 == 0)
             {
-                printf("\nNúmero %d e divisível por 2", Numero);
+                printf("\nNÃºmero %d e divisÃ­vel por 2", Numero);
             }
             else
             {
-                printf("\nO Número %d Não e divisivel por 10, por 5 e por2.", Numero);
+                printf("\nO NÃºmero %d NÃ£o e divisÃ­vel por 10, por 5 e por2.", Numero);
             }
         }
         
