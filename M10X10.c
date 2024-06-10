@@ -1,9 +1,11 @@
 #include <stdio.h>
+#include <locale.h>
 
 int main ()
 {
+    setlocale(LC_ALL, "portuguese");
     int Matriz[4][4];
-    // os dois primeiro for, Sâo para a leitura da matriz.
+    // os dois primeiro for, Sï¿½o para a leitura da matriz.
     for (int L = 0; L < 4; L++)
     
         for (int C = 0; C < 4; C++)
@@ -15,7 +17,7 @@ int main ()
     for (int L = 0 ; L < 4; L++)
        {
             for (int T = 0; T < L; T++)
-            {//A tabulação (\t) é usada para alinhar os elementos da diagonal principal
+            {//A tabulaï¿½ï¿½o (\t) ï¿½ usada para alinhar os elementos da diagonal principal
                 printf("\t");
             }
             printf("%d\n", Matriz[L][L]);
