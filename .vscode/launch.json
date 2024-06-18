@@ -1,24 +1,36 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
-      "request": "launch",
-      "args": [],
-      "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "c:/Users/Laisv/OneDrive/Documentos/GitHub/codigosB",
-      "program": "c:/Users/Laisv/OneDrive/Documentos/GitHub/codigosB/build/Debug/outDebug",
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
-      "setupCommands": [
+    "version": "0.2.0",
+    "configurations": [
+      
         {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
+            "name": "C/C++ Runner: Debug Session",
+            "type": "cppdbg",
+            "request": "launch",
+            "args": [],
+            "stopAtEntry": false,
+            "externalConsole": true,
+            "cwd": "c:/Users/Laisv/OneDrive/Documentos/GitHub/codigosB",
+            "program": "c:/Users/Laisv/OneDrive/Documentos/GitHub/codigosB/build/Debug/outDebug",
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "(Windows) Iniciar",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "c:/Users/Laisv/OneDrive/Documentos/GitHub/codigosB/build/Debug/outDebug",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "c:/Users/Laisv/OneDrive/Documentos/GitHub/codigosB",
+            "environment": [],
+            "console": "externalTerminal"
         }
-      ]
-    }
-  ]
+    ]
 }
