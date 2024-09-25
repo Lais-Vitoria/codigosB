@@ -1,4 +1,5 @@
-#include <stdio.h>
+#ifndef letra_h
+#define letra_h
 
 char ehconsoante(char L)
 {
@@ -14,16 +15,4 @@ char ehconsoante(char L)
     return 0;
 }
 
-
-int main ()
-{
-    char Letra;
-    int resultado;
-
-    printf("\nEntre com um caractere: ");
-    scanf(" %c", &Letra);
-
-     resultado = ehconsoante(Letra);
-
-     printf(" Se resultado for 1 e consoante caso contrario será 0: %d\n", resultado);
-}
+#endif
