@@ -1,7 +1,10 @@
-#include <stdio.h>
+#ifndef EH_PALINDROMO_H
+#define EH_PALINDROMO_H
 #include <string.h>
 
-int eh_palindromo(char texto[]) {
+
+int ehpalindromo(char texto[]) 
+{
     int esquerda = 0;
     int direita = strlen(texto) - 1;
 
@@ -17,3 +20,5 @@ int eh_palindromo(char texto[]) {
     }
     return 1;
 }
+
+#endif
